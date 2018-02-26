@@ -1,0 +1,26 @@
+{
+    "name": "wcr/owner",
+    "description": "add owner to all entity",
+    "authors": [
+        {
+            "name": "Francesco Monti",
+            "email": "francescomonti@plurimasrl.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "wcr/scrud": "^0.2@dev"
+    },
+    "autoload": {
+        "psr-4": {
+          "Wcr\\Owner\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wcr\\Owner\\OwnerServiceProvider"
+            ]
+        }
+    }
+}
