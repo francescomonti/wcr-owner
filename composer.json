@@ -9,7 +9,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "wcr/scrud": "^0.2@dev"
+        "wcr/crud": "^0.2@dev"
     },
     "autoload": {
         "psr-4": {
